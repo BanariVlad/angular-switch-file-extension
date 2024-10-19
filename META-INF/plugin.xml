@@ -14,7 +14,7 @@
     <p>Default shortcuts:</p>
     <ul>
     <li>Press CTRL(CMD)+I,H to open html/svg file</li>
-    <li>Press CTRL(CMD)+I,C to open css file</li>
+    <li>Press CTRL(CMD)+I,C to open scss file</li>
     <li>Press CTRL(CMD)+I,T to open the ts file</li>
     <li>Press CTRL(CMD)+I,S to open the spec.ts file</li>
     </ul>
@@ -63,7 +63,7 @@
                 <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="ctrl I" second-keystroke="H"/>
             </action>
             <action id="live.angular.actions.SwitchToStyle"
-                    class="live.angular.actions.SwitchToStyle" text="Jump to *.css File (CTRL/CMD-I,C)">
+                    class="live.angular.actions.SwitchToStyle" text="Jump to *.scss File (CTRL/CMD-I,C)">
                 <keyboard-shortcut keymap="$default" first-keystroke="ctrl I" second-keystroke="C"/>
                 <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="ctrl I" second-keystroke="C"/>
             </action>

@@ -23,7 +23,7 @@ public class ExtensionSwitcher {
     private final List<String> templateExtensions = Lists.newArrayList("html", "svg");
     private final List<String> componentExtensions = Lists.newArrayList("ts");
     private final List<String> testExtensions = Lists.newArrayList("spec.ts");
-    private final List<String> styleExtensions = Lists.newArrayList("scss", "css", "less", "styl");
+    private final List<String> styleExtensions = Lists.newArrayList("scss", "less", "styl");
     private final List<List<String>> groups = Lists.newArrayList(templateExtensions, componentExtensions, testExtensions, styleExtensions);
 
     public void switchToTemplate() {
