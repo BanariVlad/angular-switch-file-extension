@@ -42,14 +42,11 @@ public class ExtensionSwitcher {
         switchToGroup(testExtensions);
     }
 
-    private void switchToGroup(List<String> nextGroup) {
+    rivate void switchToGroup(List<String> nextGroup) {
         String basePath = getCurrentBasePath();
-        for (String extension : nextGroup) {
-            Optional<VirtualFile> file = findFileByPath(basePath + "." + extension);
-            if (file.isPresent()) {
-                openFile(file.get());
-                return;
-            }
+        Optional<VirtualFile> file = findFileByPath(basePath + ".scss");
+        if (file.isPresent()) {
+            openFile(file.get());
         }
     }
 
